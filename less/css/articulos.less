@@ -1,16 +1,18 @@
 .articulo--principal {
     max-width: 660px;
     margin: 0 auto;
+    color: @color-claro;
 
     &__intro {
-        font-size: @fuente-base + 8%;
+        .fuente(25px)
     }
     h2 {
         margin: 40px 0 40px 0;
-        font-size: 50px;
+        .fuente(50px);
         text-align: center;
+        color: @color-primario;
     }
     h3 {
-        color: @color-secundario;
+        color: @color-primario;
     }
 }
